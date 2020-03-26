@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="@string/title_snow"
+    app:startDestination="@id/moscow_SnowFall_2018">
+    <fragment
+        android:id="@+id/moscow_SnowFall_2018"
+        android:name="jp.vasic2000.a2questions.ui.snowfall.Moscow_SnowFall_2018"
+        android:label="SnowFall 2018"
+        tools:layout="@layout/fragment_snowfall_2018" />
+    <fragment
+        android:id="@+id/trainFragment"
+        android:name="jp.vasic2000.a2questions.ui.trains.TrainFragment"
+        android:label="TrainFragment"
+        tools:layout="@layout/fragment_train"/>
+</navigation>
